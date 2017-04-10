@@ -1,9 +1,12 @@
 
 {"intents": [
-    {"intent": "SpellIntent", "slots": [{"name" : "Spell", "type": "LIST_OF_SPELLS"}]},
+    {"intent": "SpellsIntent", "slots": [{"name" : "Spell", "type": "LIST_OF_SPELLS"}]},
     {"intent": "AMAZON.RepeatIntent"},
     {"intent": "AMAZON.HelpIntent"},
     {"intent": "AMAZON.StopIntent"},
     {"intent": "AMAZON.CancelIntent"}
   ]
 }
+
+//{"spellclass": "Conjuration", "description": "", "level": "Cantrip", "url": "https://www.dnd-spells.com/spell/acid-splash",
+// "spellrange": "60 feet", "casting_time": "1 Action", "source": "", "intro": "", "components": "V, S", "duration": "Instantaneous", "name": "Acid Splash"}
