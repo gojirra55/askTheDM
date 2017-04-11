@@ -1,12 +1,16 @@
 
 {"intents": [
-    {"intent": "SpellsIntent", "slots": [{"name" : "Spell", "type": "LIST_OF_SPELLS"}]},
+    {"intent": "SpellsIntent", "slots": [{"name" : "Spell",                 "type" : "LIST_OF_SPELLS", 
+    									  "name" : "CastingTime",           "type" : "LIST_OF_CASTING_TIMES",
+    									  "name" : "SpellRange",            "type" : "LIST_OF_SPELL_RANGES",
+    									  "name" : "SpellType",             "type" : "LIST_OF_SPELL_TYPES",
+    									  "name" : "SpellComponents",       "type" : "LIST_OF_SPELL_COMPONENTS",
+    									  "name" : "SpellDuration",         "type" : "LIST_OF_SPELL_DURATIONS",
+    									  "name" : "SpellShortDescription", "type" : "LIST_OF_SPELL_SHORT_DESCRIPTIONS",
+    									  "name" : "SpellLongDescription",  "type" : "LIST_OF_SPELL_LONG_DESCRIPTIONS"}]},
     {"intent": "AMAZON.RepeatIntent"},
     {"intent": "AMAZON.HelpIntent"},
     {"intent": "AMAZON.StopIntent"},
     {"intent": "AMAZON.CancelIntent"}
   ]
 }
-
-//{"spellclass": "Conjuration", "description": "", "level": "Cantrip", "url": "https://www.dnd-spells.com/spell/acid-splash",
-// "spellrange": "60 feet", "casting_time": "1 Action", "source": "", "intro": "", "components": "V, S", "duration": "Instantaneous", "name": "Acid Splash"}
