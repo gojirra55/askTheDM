@@ -1,13 +1,14 @@
 
 {"intents": [
     {"intent": "SpellsIntent", "slots": [{"name" : "Spell",                 "type" : "LIST_OF_SPELLS", 
-    									  "name" : "CastingTime",           "type" : "LIST_OF_CASTING_TIMES",
+    									  // "name" : "CastingTime",           "type" : "LIST_OF_CASTING_TIMES",
     									  "name" : "SpellRange",            "type" : "LIST_OF_SPELL_RANGES",
     									  "name" : "SpellType",             "type" : "LIST_OF_SPELL_TYPES",
     									  "name" : "SpellComponents",       "type" : "LIST_OF_SPELL_COMPONENTS",
     									  "name" : "SpellDuration",         "type" : "LIST_OF_SPELL_DURATIONS",
     									  "name" : "SpellShortDescription", "type" : "LIST_OF_SPELL_SHORT_DESCRIPTIONS",
     									  "name" : "SpellLongDescription",  "type" : "LIST_OF_SPELL_LONG_DESCRIPTIONS"}]},
+    {"intent": "CastingTimeIntent", "slots": [{ "name" : "CastingTime",           "type" : "LIST_OF_CASTING_TIMES"}]}
     {"intent": "AMAZON.RepeatIntent"},
     {"intent": "AMAZON.HelpIntent"},
     {"intent": "AMAZON.StopIntent"},
